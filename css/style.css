@@ -4,8 +4,17 @@ html {
 
 body {
     height: 100%;
-    
+    background-color:#9900cc ;
+    color:#9900cc ;
 }
+
+h1{
+    background-color:black;
+    padding-left:100px;
+    padding-right:100px;
+    border-radius:10px;
+}
+
 a {
     text-decoration: none;
 }
@@ -16,4 +25,24 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+}
+
+.navbar{
+    display:flex;
+    justify-content:center;
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+}
+
+.gallery{
+    display:flex;
+    justify-content:space-around;
 }
