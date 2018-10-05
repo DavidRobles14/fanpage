@@ -17,11 +17,20 @@ h1{
 
 a {
     text-decoration: none;
+    color:black;
 }
 
 .main {
     height: 100%;
+    display:flex;
+    flex-wrap:wrap;
 }
+
+.logo{
+    width:100%;
+    height:1000px;
+}
+
 .social-image{
     width: 30px;
     margin: 15px;
@@ -34,15 +43,40 @@ a {
 
 .navbar{
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
+    padding-bottom: 20px;
+}
+
+.nav{
+    font-size:25px;
+    border:solid black 1px;
+    padding-left:10px;
+    padding-right:10px;
+    margin:5px;
 }
 
 .footer{
     display:flex;
     justify-content:center;
+    padding-top:350px;
+    color:black;
 }
 
 .gallery{
     display:flex;
-    justify-content:space-around;
+    /*justify-content:space-between;*/
+    flex-wrap:wrap;
+}
+
+.thumbnail-image{
+    height:400px;
+    width:675px;
+    padding-bottom:20px;
+}
+
+.text{
+    color:black;
+    text-align: center;
+    padding-left:200px;
+    padding-right:200px;
 }
